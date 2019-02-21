@@ -63,21 +63,4 @@ public class Cliente {
         this.correo = correo;
     }
     
-     public void agregarCliente() {
-    
-    }
-     
-      public void editarCliente() {
-    
-    }
-     
-     public void eliminarCliente() {
-    
-    }
-     
-     public void consultarCliente() {
-    
-    }
-   
-   
-}
+     }

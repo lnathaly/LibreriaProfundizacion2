@@ -61,21 +61,5 @@ public class Libro {
 
     public void setPrecio(double precio) {
         this.precio = precio;
-    }
-    
-    public void agregarLibro() {
-    
-    }
-     
-      public void editarLibro() {
-    
-    }
-     
-     public void eliminarLibro() {
-    
-    }
-     
-     public void consultarLibro() {
-    
-    }
+    }     
 }

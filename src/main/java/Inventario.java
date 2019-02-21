@@ -13,13 +13,17 @@ public class Inventario {
     private int idLibro;
     private int cantidad;
     private double precio;
+    private int minimo;
 
-    public Inventario(int inventario, int idLibro, int cantidad, double precio) {
+    public Inventario(int inventario, int idLibro, int cantidad, double precio, int minimo) {
         this.inventario = inventario;
         this.idLibro = idLibro;
         this.cantidad = cantidad;
         this.precio = precio;
+        this.minimo = minimo;
     }
+
+    
 
     public int getInventario() {
         return inventario;
@@ -52,7 +56,30 @@ public class Inventario {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+
+    public int getMinimo() {
+        return minimo;
+    }
+
+    public void setMinimo(int minimo) {
+        this.minimo = minimo;
+    }
+        
+    public void agregarLibro(){
+        
+    }
     
+    public void editarLibro(){
+        
+    }
+    
+    public void eliminarLibro(){
+        
+    }
+    
+    public void consultarLibro(){
+        
+    }
     public void consultarInven(){
         
     }
@@ -65,11 +92,5 @@ public class Inventario {
         
     }
     
-    public void consultaMasVend(){
-        
-    }
     
-    public void consultaMenosVend(){
-        
-    }
 }
