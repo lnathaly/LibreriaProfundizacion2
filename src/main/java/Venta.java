@@ -32,7 +32,14 @@ public class Venta {
     * En esta variable se almacena el total de la venta realizada
     */ 
    private double total;
-
+   /**
+    * Constructor de recibe los parametros minimos para ejecutar los metodos de la clase venta.
+    * @param idVenta
+    * @param factura
+    * @param idLibro
+    * @param cantidad
+    * @param total 
+    */
     public Venta(int idVenta, int factura, int idLibro, int cantidad, double total) {
         this.idVenta = idVenta;
         this.factura = factura;
@@ -41,6 +48,7 @@ public class Venta {
         this.total = total;
     }
    
+    
     /**
      * Con este metodo se puede identificar cual es el libro mas vendido
      */
@@ -92,3 +100,4 @@ public class Venta {
    
    
 }
+

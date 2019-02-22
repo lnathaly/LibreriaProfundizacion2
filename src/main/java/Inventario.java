@@ -32,7 +32,14 @@ public class Inventario {
      * Esta variable se encarga de almacenar el minimo de libros de cada libro que debe haber en el inventario
      */
     private int minimo;
-
+    /**
+     * Constructor de recibe los parametros minimos para ejecutar los metodos de la clase inventario.
+     * @param inventario
+     * @param idLibro
+     * @param cantidad
+     * @param precio
+     * @param minimo 
+     */
     public Inventario(int inventario, int idLibro, int cantidad, double precio, int minimo) {
         this.inventario = inventario;
         this.idLibro = idLibro;

@@ -32,7 +32,14 @@ public class Libro {
      * Esta variable se almacena el precio de cada libro
      */
     private double precio;
-
+    /**
+     * Constructor de recibe los parametros minimos para ejecutar los metodos de la clase libro
+     * @param idLibro
+     * @param nombre
+     * @param autor
+     * @param editorial
+     * @param precio 
+     */
     public Libro(int idLibro, String nombre, String autor, String editorial, double precio) {
         this.idLibro = idLibro;
         this.nombre = nombre;

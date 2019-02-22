@@ -5,7 +5,7 @@
  */
 
 /**
- *Esta clase se encarga de lamacenar la factura de cada venta realizada
+ *Esta clase se encarga de almacenar la factura de cada venta realizada
  * @author Laura
  * @version 1
  */
