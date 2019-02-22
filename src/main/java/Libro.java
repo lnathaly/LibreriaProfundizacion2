@@ -7,12 +7,30 @@
 /**
  *
  * @author Laura
+ * @version 1
+ * Esta clase se encarga de almacenar los datos de cada libro 
  */
+
 public class Libro {
+    /**
+     * Esta variable se encarga de almacenar el codigo de cada libro
+     */
     private int idLibro;
+    /**
+     * Esta variable se encarga de almacenar el nombre de cada libro
+     */
     private String nombre;
+    /**
+     * Esvariable se encarga de almacenar el autor de cada libro 
+     */
     private String autor;
+    /**
+     * Esta variable se encarga de almacenar la editorial de cada libro
+     */
     private String editorial;
+    /**
+     * Esta variable se almacena el precio de cada libro
+     */
     private double precio;
 
     public Libro(int idLibro, String nombre, String autor, String editorial, double precio) {

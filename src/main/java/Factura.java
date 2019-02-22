@@ -5,21 +5,28 @@
  */
 
 /**
- *
+ *Esta clase se encarga de lamacenar la factura de cada venta realizada
  * @author Laura
+ * @version 1
  */
-public class Factura {
-    private int factura;
-    private String fecha;
-    private int cedula;
-    private int idVenta;
 
-    public Factura(int factura, String fecha, int cedula, int idVenta) {
-        this.factura = factura;
-        this.fecha = fecha;
-        this.cedula = cedula;
-        this.idVenta = idVenta;
-    }
+public class Factura {
+    /**
+     * En esta variable se almacena el numero de factura correspondiente 
+     */
+    private int factura;
+    /**
+     * En esta variable se almacena la fecha de la factura
+     */
+    private String fecha;
+    /**
+     * en esta varia ble se almacena el numero de cedula del cliente
+     */
+    private int cedula;
+    /**
+     * en esta variable se almacena el codigo de la respectiva venta 
+     */
+    private int idVenta;
 
     public int getFactura() {
         return factura;

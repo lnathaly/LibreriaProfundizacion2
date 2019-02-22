@@ -7,21 +7,35 @@
 /**
  *
  * @author Laura
+ * 1
+ * 
+ */
+/**
+ * 
+ * @author Laura
+ * Esta clase se encarga de almacenar los datos de los cientes de la libreria
  */
 public class Cliente {
+    /**
+     * Esta variable se encarga de almacenar la cedula de cada cliente
+     */
     private int cedula;
+    /**
+     * Esta variable se encarga de almacenar el nombre de cada cliente
+     */
     private String nombre;
+    /**
+     * Esta variable se encarga de almacenar la direccion de cada cliente 
+     */
     private String direccion;
+    /**
+     * Esta variable se encarga de almacenat el telefono de cada cliente
+     */
     private int telefono;
+    /**
+     * Esta variable se encarga de almacenar el correo de cada cliete
+     */
     private String correo;
-
-    public Cliente(int cedula, String nombre, String direccion, int telefono, String correo) {
-        this.cedula = cedula;
-        this.nombre = nombre;
-        this.direccion = direccion;
-        this.telefono = telefono;
-        this.correo = correo;
-    }
 
     public int getCedula() {
         return cedula;

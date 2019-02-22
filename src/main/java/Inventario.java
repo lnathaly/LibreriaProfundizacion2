@@ -7,12 +7,30 @@
 /**
  *
  * @author Laura
+ * @version 
+ * Esta clase se encarga de almacenar la cantidad de libros
  */
+
 public class Inventario {
+    /**
+     * En esta variable se almacena el codigo del inventario correspondiente 
+     */
     private int inventario;
+    /**
+     * Esta variable se encarga de almacenar el codigo del libro
+     */
     private int idLibro;
+    /**
+     * Esta variable se encarga de almacenar la cantidad de libros de respectivo inventario
+     */
     private int cantidad;
+    /**
+     * Esta variable se encarga de almacenar el precio de determinado libro
+     */
     private double precio;
+    /**
+     * Esta variable se encarga de almacenar el minimo de libros de cada libro que debe haber en el inventario
+     */
     private int minimo;
 
     public Inventario(int inventario, int idLibro, int cantidad, double precio, int minimo) {
@@ -23,7 +41,44 @@ public class Inventario {
         this.minimo = minimo;
     }
 
-    
+    /**
+     * Este metodo se encarga de agregar un nuevo libro al inventario 
+     */
+    public void agregarLibro(){
+        
+    }
+    /**
+     * Mediante este metodo se puede editar los datos de determinado libro
+     */
+    public void editarLibro(){
+        
+    }
+    /**
+     * Mediante este metodo se puede eliminar un libro
+     */
+    public void eliminarLibro(){
+        
+    }
+    //Mediante este metodo se puede Consultar un libro
+    public void consultarLibro(){
+        
+    }
+    //Mediante este metodo se puede Consultar la lista de libros del inventario 
+    public void consultarInven(){
+        
+    }
+    /**
+     * mediante este metodo se puede consultar cual es el libro mas costoso del inventario
+     */
+    public void consultarCostoso(){
+        
+    }
+    /**
+     * Mediante este metodo podermos consultar cual es el libro mas economico del inventario
+     */
+    public void consultarBarato(){
+        
+    }
 
     public int getInventario() {
         return inventario;
@@ -64,33 +119,7 @@ public class Inventario {
     public void setMinimo(int minimo) {
         this.minimo = minimo;
     }
-        
-    public void agregarLibro(){
-        
-    }
     
-    public void editarLibro(){
-        
-    }
-    
-    public void eliminarLibro(){
-        
-    }
-    
-    public void consultarLibro(){
-        
-    }
-    public void consultarInven(){
-        
-    }
-    
-    public void consultarCostoso(){
-        
-    }
-    
-    public void consultarBarato(){
-        
-    }
-    
+   
     
 }
